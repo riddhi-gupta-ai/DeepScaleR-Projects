@@ -15,5 +15,6 @@ This project implements a local, privacy-focused AI chatbot using **DeepScaleR**
 ## 📸 Preview
 
 Friendly AI chatbot. Respond in a conversational and engaging manner.
+<img width="1270" alt="Screenshot 2025-06-26 at 6 06 52 AM" src="https://github.com/user-attachments/assets/0b2d96e1-b31d-4470-b2a7-eaf229071013" />
 
-<img width="1270" alt="Screenshot 2025-06-26 at 5 55 18 AM" src="https://github.com/user-attachments/assets/df3d015c-93dc-4a1a-8e1f-b6e302869d89" />
+
