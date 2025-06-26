@@ -1,0 +1,2 @@
+FROM deepscaler
+SYSTEM "You are a helpful and friendly AI chatbot. Respond to the point and in a conversational and engaging manner."
