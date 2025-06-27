@@ -3,14 +3,11 @@ import ollama
 
 # Function to interact with the DeepscalerR Chatbot
 def chatbot(message):
-    try:
-        response = ollama.chat(
-            model='deepscaler-chat',
-            messages=[{'role': 'user', 'content': message}]
-        )
-        return response.get('message', 'No response received from the model.')
-    except Exception as e:
-        return f"⚠️ Error: {str(e)}"
+    response = ollama.chat(
+        model='deepscaler',
+        messages=[{'role': 'user', 'content': message}]
+    )
+    return response['message']['content']
 
 # Build a Gradio interface
 chatbot_ui = gr.Interface(
@@ -21,7 +18,8 @@ chatbot_ui = gr.Interface(
     description="Chat with an AI Chatbot powered by DeepScaleR and Ollama.",
     examples=[
         ["Hi, How are you?"],
-        ["What is AI?"]
+        ["What is AI?"],
+        ["What is Ollama?"]
     ],
     # live=True,  # Enables dynamic updates
     theme="soft"  # Optional: aesthetic theme
