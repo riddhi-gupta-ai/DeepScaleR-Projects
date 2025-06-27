@@ -17,3 +17,6 @@ This project uses **DeepScaleR** via **Ollama** and a **Gradio UI** to solve com
 
 A simple textbox interface that provides solutions to math problems via DeepScaleR.
 <img width="1270" alt="Screenshot 2025-06-26 at 6 01 58 AM" src="https://github.com/user-attachments/assets/f6ace098-e0d6-41ad-8591-85677cfe36a4" />
+
+Sample Working With Output:
+<img width="1309" alt="Screenshot 2025-06-27 at 6 00 01 AM" src="https://github.com/user-attachments/assets/07fc6042-6d05-40d7-aebd-5ab1b8a52543" />
