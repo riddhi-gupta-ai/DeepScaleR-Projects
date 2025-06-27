@@ -3,16 +3,11 @@ import ollama
 
 # Function to process and solve math problems
 def solve_math_problem(problem):
-    try:
-        # Send a clear, structured prompt to the model
-        prompt = f"Solve this math problem step by step:\n\n{problem}"
-        response = ollama.chat(
-            model='deepscaler',
-            messages=[{'role': 'user', 'content': prompt}]
-        )
-        return response.get('message', 'No response received from the model.')
-    except Exception as e:
-        return f"⚠️ Error: {str(e)}"
+    response = ollama.chat(
+        model='deepscaler',
+        messages=[{'role': 'user', 'content': problem}]
+    )
+    return response['message']['content']
 
 # Build a Gradio interface
 interface = gr.Interface(
@@ -27,7 +22,6 @@ interface = gr.Interface(
         ["Integrate x^2 dx"],
         ["Factor: x^2 + 5x + 6"]
     ],
-    # live=True,  # Enables dynamic updates
     theme="soft"  # Optional: aesthetic theme
 )
 
