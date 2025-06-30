@@ -33,3 +33,14 @@ This repository showcases two AI-powered applications built using [Ollama](https
   - Step-by-step explanations (where applicable)
 
 ---
+## Notes and Learnings 
+
+[📝 View My Notes](https://github.com/riddhi-gupta-ai/Reading-Material/blob/main/DeepScaleR%20Notes/HandWritten_Notes.pdf)
+
+
+[🤖 View Project Breakdown Guide PDF](https://github.com/riddhi-gupta-ai/Reading-Material/blob/main/DeepScaleR%20Notes/DeepScaleR-Projects-Breakdown.pdf)
+
+---
+## Skill Certificate 
+[View Certificate](https://github.com/riddhi-gupta-ai/Reading-Material/blob/main/DeepScaleR%20Notes/Udemy%20DeepscaleR.pdf)
+
